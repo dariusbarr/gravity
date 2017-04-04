@@ -6,8 +6,9 @@ import java.text.NumberFormat;
  * compares the values of a simple pendulum using the harmonic motion equation
  * versus the Euler algorithm approximation
  */
-public class PendulumRunner {
+public class PendulumRunner  {
 
+	
     public static void main (String [] args) {
 	NumberFormat nf = NumberFormat.getInstance ();
 	nf.setMaximumFractionDigits (3);
@@ -34,5 +35,7 @@ public class PendulumRunner {
 				nf.format (Math.toDegrees (rpCoarse.getLastTheta ())));
 	}
     }
+    
+
 }
 
